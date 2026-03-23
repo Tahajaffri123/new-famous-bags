@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import "tailwindcss";
+
+.success-snackbar {
+  --mdc-snackbar-container-color: #4f46e5;
+  --mdc-snackbar-supporting-text-color: #ffffff;
+  --mat-snack-bar-button-color: #c7d2fe;
+}
+.success-snackbar .mat-mdc-snack-bar-action {
+  font-weight: bold;
+  transition: all 0.2s;
+}
+.success-snackbar .mat-mdc-snack-bar-action:hover {
+  --mat-snack-bar-button-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
